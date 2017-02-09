@@ -1,0 +1,8 @@
+Solr ALWAYS runs in its embedded jetty container - highly dis-recommended to do otherwise (deploy the war to another container)
+
+SearchManager will run in its own container - jetty or Tomcat
+
+No reason to tie solr instances to SearchManager instances
+	see how they perform in different configurations; what works best
+
+
