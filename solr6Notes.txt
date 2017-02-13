@@ -6,3 +6,4 @@ No reason to tie solr instances to SearchManager instances
 	see how they perform in different configurations; what works best
 
 
+Join queries - the performance challenge is in the delegate process that receives results from two (or more) collections and joins that data together into one response
